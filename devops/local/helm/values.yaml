@@ -54,8 +54,8 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8076
-    targetPort: 8076
+    port: 8077
+    targetPort: 8077
 
 
 deployment:
