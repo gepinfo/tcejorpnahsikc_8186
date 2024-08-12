@@ -250,7 +250,7 @@ services:
     image: systementry-8186
     container_name: systementry-8186
     ports: 
-      - 8074:8074
+      - 8076:8076
     env_file: .env
     depends_on:
       - mongo

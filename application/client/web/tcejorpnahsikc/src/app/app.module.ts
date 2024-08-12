@@ -34,7 +34,7 @@ const packageNgzorro = [ { provide: NZ_ICONS, useValue: icons }, { provide: NZ_I
 
 @NgModule({
   declarations: [
-                        AppComponent
+                            AppComponent
 ],
   imports: [
   SefscreenModule,
@@ -47,6 +47,12 @@ AuthorizationModule,
 HomeModule,
 SignupModule,
 LoginModule,
+  SefscreenModule,
+VaultadminModule,
+ManagecontrolModule,
+ManageusersModule,
+ManagerolesModule,
+AuthorizationModule,
   SefscreenModule,
 VaultadminModule,
 ManagecontrolModule,
@@ -81,10 +87,10 @@ TranslatorModule,
 AppRoutingModule,
 BrowserAnimationsModule,
       BrowserModule,
-        AdminModule
+          AdminModule
 ],
   providers: [
-            	SharedService,
+              	SharedService,
 ...packageNgzorro
 
   ],
